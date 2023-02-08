@@ -1,0 +1,130 @@
+[
+    {
+        "name": "KFC",
+        "photo_url": "/images/3559865/ee31782ce8a630a015b6b94fd07b3351-{w}x{h}.jpg",
+        "type": "restaurant",
+        "logo": [
+            {
+                "theme": "dark",
+                "value": [
+                    {
+                        "size": "small",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
+                    },
+                    {
+                        "size": "medium",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
+                    },
+                    {
+                        "size": "large",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
+                    }
+                ]
+            },
+            {
+                "theme": "light",
+                "value": [
+                    {
+                        "size": "small",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
+                    },
+                    {
+                        "size": "medium",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
+                    },
+                    {
+                        "size": "large",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Вкусно – и точка",
+        "photo_url": "/images/3580810/a91a396cfada8d661404141cb1795615-{w}x{h}.jpg",
+        "type": "restaurant",
+        "logo": [
+            {
+                "theme": "dark",
+                "value": [
+                    {
+                        "size": "small",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
+                    },
+                    {
+                        "size": "medium",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
+                    },
+                    {
+                        "size": "large",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
+                    }
+                ]
+            },
+            {
+                "theme": "light",
+                "value": [
+                    {
+                        "size": "small",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
+                    },
+                    {
+                        "size": "medium",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
+                    },
+                    {
+                        "size": "large",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Бургер Кинг",
+        "photo_url": "/images/3436037/0b8f38d72256c03fad684f94439bfba5-{w}x{h}.jpg",
+        "type": "restaurant",
+        "logo": [
+            {
+                "theme": "dark",
+                "value": [
+                    {
+                        "size": "small",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
+                    },
+                    {
+                        "size": "medium",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
+                    },
+                    {
+                        "size": "large",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
+                    }
+                ]
+            },
+            {
+                "theme": "light",
+                "value": [
+                    {
+                        "size": "small",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
+                    },
+                    {
+                        "size": "medium",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
+                    },
+                    {
+                        "size": "large",
+                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Subway",
+        "photo_url": "/images/3595156/526cc4f57b5be155ab723131c7c199e7-{w}x{h}.jpg",
+        "type": "restaurant"
+    }
+]
