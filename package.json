@@ -1,0 +1,30 @@
+{
+  "name": "vk-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon",
+    "cs": "gh codespace ports visibility 10000:public -c $CODESPACE_NAME && nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midis-students/vk-app.git"
+  },
+  "author": "Ikysu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midis-students/vk-app/issues"
+  },
+  "homepage": "https://github.com/midis-students/vk-app#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+  }
+}
