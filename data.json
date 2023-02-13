@@ -1,130 +1,3192 @@
 [
-    {
-        "name": "KFC",
-        "photo_url": "/images/3559865/ee31782ce8a630a015b6b94fd07b3351-{w}x{h}.jpg",
-        "type": "restaurant",
-        "logo": [
-            {
-                "theme": "dark",
-                "value": [
-                    {
-                        "size": "small",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
-                    },
-                    {
-                        "size": "medium",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
-                    },
-                    {
-                        "size": "large",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
-                    }
-                ]
-            },
-            {
-                "theme": "light",
-                "value": [
-                    {
-                        "size": "small",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
-                    },
-                    {
-                        "size": "medium",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
-                    },
-                    {
-                        "size": "large",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3525402/7a6f10df88cabb5c8ef087c3a810bd76/orig"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Вкусно – и точка",
-        "photo_url": "/images/3580810/a91a396cfada8d661404141cb1795615-{w}x{h}.jpg",
-        "type": "restaurant",
-        "logo": [
-            {
-                "theme": "dark",
-                "value": [
-                    {
-                        "size": "small",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
-                    },
-                    {
-                        "size": "medium",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
-                    },
-                    {
-                        "size": "large",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
-                    }
-                ]
-            },
-            {
-                "theme": "light",
-                "value": [
-                    {
-                        "size": "small",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
-                    },
-                    {
-                        "size": "medium",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
-                    },
-                    {
-                        "size": "large",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3420935/424a707e0a408b3383174c56486291dc/orig"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Бургер Кинг",
-        "photo_url": "/images/3436037/0b8f38d72256c03fad684f94439bfba5-{w}x{h}.jpg",
-        "type": "restaurant",
-        "logo": [
-            {
-                "theme": "dark",
-                "value": [
-                    {
-                        "size": "small",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
-                    },
-                    {
-                        "size": "medium",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
-                    },
-                    {
-                        "size": "large",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
-                    }
-                ]
-            },
-            {
-                "theme": "light",
-                "value": [
-                    {
-                        "size": "small",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
-                    },
-                    {
-                        "size": "medium",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
-                    },
-                    {
-                        "size": "large",
-                        "logo_url": "https://avatars.mds.yandex.net/get-eda/3507668/3e19cab9387b489c5841a0434cd0e259/orig"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Subway",
-        "photo_url": "/images/3595156/526cc4f57b5be155ab723131c7c199e7-{w}x{h}.jpg",
-        "type": "restaurant"
+  {
+    "name": "Ostrov",
+    "photo_url": "/images/3377781/752c3d69171ccd14cf38a4a9c6281a75-{w}x{h}.jpg",
+    "rating": "Новый",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
     }
+  },
+  {
+    "name": "KFC",
+    "photo_url": "/images/3559865/ee31782ce8a630a015b6b94fd07b3351-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Бургер Кинг",
+    "photo_url": "/images/3436037/0b8f38d72256c03fad684f94439bfba5-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Вкусно – и точка",
+    "photo_url": "/images/3580810/a91a396cfada8d661404141cb1795615-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "На Труда",
+    "photo_url": "/images/3502728/22ef60f6bb420e6929a1bbec78a05f7c-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Subway",
+    "photo_url": "/images/3595156/526cc4f57b5be155ab723131c7c199e7-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Помидор",
+    "photo_url": "/images/1380298/a653a2b8bb33dc1eac227f08e9b466a1-{w}x{h}.jpeg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Сели-Съели",
+    "photo_url": "/images/3506707/7c9b85cc9d9e3977d2cbeb1d20eac2ba-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Frank by Баста",
+    "photo_url": "/images/3512182/1a9f6829bb21792b1ddc2b350bf86954-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Бургерная Мясорубка",
+    "photo_url": "/images/1368744/caf0155fc814d227f53d901422260684-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Akademia",
+    "photo_url": "/images/3569651/9704d0a6f759f3fed902ed47b255cb34-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Bao",
+    "photo_url": "/images/3807631/9838ea7a440d06b9df6e3e8d004ec199-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Дед ХО",
+    "photo_url": "/images/3456802/d7e89798734f0546436eee81dca3fb4b-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Хачапури тётушки марико",
+    "photo_url": "/images/3513074/7d81b80bdd928155dade163f3ffd2b5a-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Paulaner Bräuhaus",
+    "photo_url": "/images/1380157/90ba6274ba983c816937a4163be28d92-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Mozzarella",
+    "photo_url": "/images/3807631/b70b159f0ee8e4da3d12201a22e35e3f-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Веста Пицца",
+    "photo_url": "/images/1387779/b87eea92ddac9c6c6cb451b24a3e6add-{w}x{h}.jpeg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Пенка",
+    "photo_url": "/images/1387779/1cd39de69d2932e66d12c8411319d698-{w}x{h}.jpeg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Аян",
+    "photo_url": "/images/1368744/d3424bd586b1c27699d28a9cb047c13c-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Мясо есть",
+    "photo_url": "/images/1368744/716eeab7e89040c94b0a661df13d6966-{w}x{h}.jpeg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Супер Бургер",
+    "photo_url": "/images/1387779/b5f91a06136deb0e84841edc3d9e85e5-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "La Petite",
+    "photo_url": "/images/1380157/e3f032e831779328a914f966c853b6c0-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Pizza Makers",
+    "photo_url": "/images/1380157/9f813969b97a74d2992950eabaa5c979-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Патриот",
+    "photo_url": "/images/1380157/0352d979cb65a779e3a3f2939c551137-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Joy Cafe",
+    "photo_url": "/images/3506707/3b6a09a6da393775f126c80a13cb1a9c-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Генацвале",
+    "photo_url": "/images/1380157/ef83c47f49083082efa713702dd5f125-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Maestro",
+    "photo_url": "/images/1370147/b6f3ff7cad134491c53dd9426a644af8-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "КИМПАБ",
+    "photo_url": "/images/1368744/9482cdc703c35e759d447547a71f9875-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Высший вкус",
+    "photo_url": "/images/1962206/bf73e70c5a24d6f4704ff3415862bd50-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Viet Quan",
+    "photo_url": "/images/1380157/afe59ae9b5fabb11989b61ff56d540c8-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суши-Маркет",
+    "photo_url": "/images/1387779/e5e2a18138aafdf6b7a2a8810ebea328-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Pretty Betty",
+    "photo_url": "/images/3790679/0a3439f2283357078c626b0d3fc97dd4-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Старый Ереван",
+    "photo_url": "/images/3725642/ceed45d086b851679827a6801692cb4d-{w}x{h}.jpg",
+    "rating": "4.2",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Хинкали и Вино",
+    "photo_url": "/images/1368744/6dd2a3a97f57e38823cc822695b59419-{w}x{h}.jpeg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "The Pechka",
+    "photo_url": "/images/1380157/cbe61da9550adfc633e4fe2cb21c6276-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Viet pho",
+    "photo_url": "/images/1368744/f7d64b36c5c1a6345649cc93c9f67fbe-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Kamakura",
+    "photo_url": "/images/1368744/3ff44d7d9396473544616a1a8d5d0b48-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Кофейня Миндаль",
+    "photo_url": "/images/1380157/9b132b0c6171d26b167889084b7e8acc-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Rolls",
+    "photo_url": "/images/1387779/1755185cb7d1687686e676610e5acf53-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Bon Bon",
+    "photo_url": "/images/1380157/759afd6d48103ca644e540df8ae5a075-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Шах и Мята",
+    "photo_url": "/images/1387779/a22d715acc83db9afe83f3d85210b291-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Шаурма Сеньор Денёр",
+    "photo_url": "/images/3581687/abfa358237d12902239c6cfaae5315ea-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Максимилианс",
+    "photo_url": "/images/1380157/cf498d0a79d7e0640f4406d7872ad920-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Marmaris",
+    "photo_url": "/images/1387779/7836ae005f1e9a8ace8e3b5460545fa8-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Дружба",
+    "photo_url": "/images/1380157/8bbc2faf2eb86461f18922c0098994a8-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Итальянка",
+    "photo_url": "/images/1380298/b76a65900b34f673243debf545ba9e8e-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Meet.Point",
+    "photo_url": "/images/1380157/b8bdcb63e6c2e242bb4f1398a449a80b-{w}x{h}.jpg",
+    "rating": "4.2",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Pho bro",
+    "photo_url": "/images/1380298/b00f774e436af63d60a37c3e2fd1daa6-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Love Plove",
+    "photo_url": "/images/3508859/891675def406ab3036b75ad8a8e74bac-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Баскин Роббинс",
+    "photo_url": "/images/3507285/486739b2b32db8553caf325dcca301b2-{w}x{h}.JPG",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Doski",
+    "photo_url": "/images/1380157/8e5449a06afa91ec0df552256f3e7700-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Мясной регион",
+    "photo_url": "/images/3770794/5256be55c663d999277c585dc96ced56-{w}x{h}.jpeg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Roni Pizza Napolitana",
+    "photo_url": "/images/2050703/bec846a49fec94fe0090ee706783f50f-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Птичка",
+    "photo_url": "/images/3538649/5c5a8dca91c37a0b1f2ba406571ee425-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Покемания",
+    "photo_url": "/images/3490335/843c7535153414aa655d62a1e634dfeb-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Гринери бар",
+    "photo_url": "/images/1380298/074c3a70c692ae2c65291d1a6f091c69-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "The Тёлки",
+    "photo_url": "/images/3436037/94cafd83142549cfb2b3ef119e8107e1-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Мясная заправка",
+    "photo_url": "/images/3609085/90eb0094ab9472eb0998559e240ad89a-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Оливер",
+    "photo_url": "/images/1387779/877b407656895d13c711ebb524a34c8a-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Уголь",
+    "photo_url": "/images/1368744/74417070cff1d4cfa09851ad92f74d07-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Topka Reborn",
+    "photo_url": "/images/1380157/41d197b5ad127c015b72141fadec8b9b-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Шаурма по восточному",
+    "photo_url": "/images/3725642/8f6ed1a3bc036a53023a7c5bda41886e-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Alazani valley",
+    "photo_url": "/images/3507285/3173387945ee197eb446a932dea51ca9-{w}x{h}.JPG",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Султан",
+    "photo_url": "/images/3774488/354521fc2c3b383d0262cfd93fbb7cd4-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Surf Coffee x Kirova",
+    "photo_url": "/images/1380157/4052e6ca2a22db60c6576864f9107328-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Чебуречная №1",
+    "photo_url": "/images/1380298/bd2d8f1a67dc157defc36d30182f670c-{w}x{h}.jpeg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Ватрушка",
+    "photo_url": "/images/1370147/d71f867fda4ab454ecadcb896cfc61d6-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Шавуха to go",
+    "photo_url": "/images/3595381/d35cfd3ef4e55d5f07cb40fcde105e4d-{w}x{h}.jpg",
+    "rating": "4.2",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Galette",
+    "photo_url": "/images/3490902/3919ccd330594823cee3e3c623997945-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Гриль культура",
+    "photo_url": "/images/3583862/435099417de2b6feb9177f7c349f41af-{w}x{h}.jpg",
+    "rating": "4.1",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Дока-пицца",
+    "photo_url": "/images/1380157/63249af1d8013bb9117e30cfd9b4d5d0-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Годзилла Фуд",
+    "photo_url": "/images/3531870/27a545028c3694d41575c76e4ff315bc-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Grano",
+    "photo_url": "/images/1387779/83617c9c9aaa73acd0e8eecdcbfd387b-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Журавлина вареничная",
+    "photo_url": "/images/3191933/83238f447b7e1bc57ec3eeeab4875280-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Суши Sale 74",
+    "photo_url": "/images/3528150/627f907df835b288618bfaa8cbaeca4f-{w}x{h}.jpeg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Хинкальная Сациви",
+    "photo_url": "/images/3735503/71224dc77e0ee99a00536a3ab9bdd226-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "ЧЁ ГО",
+    "photo_url": "/images/1368744/b6f35455c39c6ee79a53423adb9211e6-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Гриль Хаус",
+    "photo_url": "/images/3724421/3f042c21d0bc276bd8872f20bb3cdc81-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Coffee Cake",
+    "photo_url": "/images/1380298/f239f0eb2aa7c38642d49b3120555284-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Брют ли",
+    "photo_url": "/images/1380298/f497ba354ffac555cc65ab5995e249d8-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Шавуха to go",
+    "photo_url": "/images/3593277/b197260c46a544f12ebf8326c38365d1-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Сhicagos",
+    "photo_url": "/images/1370147/5b7d53e7d1450b91deeb3c204e997af4-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Тайяки",
+    "photo_url": "/images/3502728/94e83b848b78a62a961974d1f39d6448-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Факультет",
+    "photo_url": "/images/3595156/148a7cc92fe4bef5058cf0ef6cca704b-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Фо Бо и не только",
+    "photo_url": "/images/2050703/e226f49345691c56cfbbdf5b7f55748c-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Шаурма En Sulu",
+    "photo_url": "/images/3774488/174b4d4ddf458c392c9675fc0c7544c4-{w}x{h}.jpg",
+    "rating": "4.0",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Спылу Сжару",
+    "photo_url": "/images/1368744/9579fa802b5f06a9fcba7cc9082b2b17-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Время крыльев",
+    "photo_url": "/images/3420935/19fc69ae400f8702afd714131cd7c46a-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Plove You",
+    "photo_url": "/images/1368744/03726031acde6542d0f358cf99893c0d-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Пивоман Бар",
+    "photo_url": "/images/1368744/302c64b8d7631d1d72a381ae8015cdbe-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Забегаловка",
+    "photo_url": "/images/3784951/da53bce8d8a540dc70f3305954c0424a-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Sketch",
+    "photo_url": "/images/1368744/ed3e2d33d6b55e9eddc50206fc68a4cf-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Таврия",
+    "photo_url": "/images/3569651/efffe5a67658e4af9339f66f7d6de199-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Легенда",
+    "photo_url": "/images/1387779/fa25f2d9e13157029234439a44a1589b-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Солнце",
+    "photo_url": "/images/1387779/4d04db5e3f4a334b53db3ebf7be93f7e-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Кухня. Твоя столовая",
+    "photo_url": "/images/1387779/52b4ded29713908501a72d730458d797-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Хаан буз",
+    "photo_url": "/images/1380157/7dfa6d64dca35ca96de94ba6cd06b6dc-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Хочешь есть",
+    "photo_url": "/images/3806466/ec2ac75be86156a3bb04ea086703f1cf-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Плантация",
+    "photo_url": "/images/1380298/9fa4d76046abc5b729f99a1fabd27300-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Пироговая Вишняковой",
+    "photo_url": "/images/3377781/53fd77558399eaae9567cde415d8569a-{w}x{h}.jpg",
+    "rating": "5.0 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Тетя Полли",
+    "photo_url": "/images/3805444/412b0a0c476823fd9049d90ce7d9f478-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Биоферма",
+    "photo_url": "/images/3774488/e2eb3e013e8bc54eb539aed45a098160-{w}x{h}.jpg",
+    "rating": "5.0 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Камчатка",
+    "photo_url": "/images/1368744/dc0924919b3195069fc706989316b980-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Papa Carlo",
+    "photo_url": "/images/2370127/7854c036dd0f08d305144fd24b72a05f-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Кафе-бистро Все есть, есть все",
+    "photo_url": "/images/1370147/4afae7390ebe3c0491a0709145938d35-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Манана мама 2",
+    "photo_url": "/images/3749380/c4953495da083891d12a45006bc0b95a-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Пирог за часок",
+    "photo_url": "/images/3507668/5305b8d3b9089270418ad6a05db31ca4-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Мираж Халяль",
+    "photo_url": "/images/1380298/d422206551c29e206bfaf8efab1148fe-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Sushi simple",
+    "photo_url": "/images/1370147/5bfbf89b084fdcd21579ec25a3589e1d-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Neromulino",
+    "photo_url": "/images/1380157/7a33f431ac57d54f18304fe271c37b92-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Журавлина",
+    "photo_url": "/images/3585205/2fb80e1002d4ebfcaad00c01dd3b070f-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Starbro",
+    "photo_url": "/images/3593277/2cca4f7541cc14583de64ef0dd83921f-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Coffee to go",
+    "photo_url": "/images/1380157/1c7b78fe1d3a47a550f52a66841c741e-{w}x{h}.jpg",
+    "rating": "3.8",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Подди-пицца",
+    "photo_url": "/images/3513074/008fa9f82e8f60248b1432753741f4ac-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Andrew baker",
+    "photo_url": "/images/1387779/209ab82574758412910ff332fbc99d39-{w}x{h}.jpg",
+    "rating": "5.0 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Edateca",
+    "photo_url": "/images/1368744/52c87d2204887434a5a2531dbc7aa4b6-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Рыбаморемясо",
+    "photo_url": "/images/3550919/4c610a8312a10d22fcedf3bf61d04b4a-{w}x{h}.jpg",
+    "rating": "4.2",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Текс-Мекс",
+    "photo_url": "/images/3749380/0e503b0c7fe84ebe3bac4a5591f7caed-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Кафе Корс",
+    "photo_url": "/images/1380298/1da1b2dd596beeeb48b313e307269d28-{w}x{h}.jpg",
+    "rating": "4.1",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Tortillas & Grill",
+    "photo_url": "/images/3735503/36b3123bf80bd91e934fcea936991190-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суши Сет",
+    "photo_url": "/images/3506707/9050d1c47b276ff416a70272c938b4b7-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "FlyPizza",
+    "photo_url": "/images/1370147/ce93364397ccee7da1a0e864c8ac2ae5-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Coffee Brothers",
+    "photo_url": "/images/1387779/64acfeac1835fa6010fae2a5f306d627-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Mangal House",
+    "photo_url": "/images/3506804/2f7d1f366f48ec96e1126d915a5ce9da-{w}x{h}.jpeg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Дело вкуса",
+    "photo_url": "/images/1368744/7992b108eb7e00c10e04fc3a12aceae8-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Крафтовая кофейня",
+    "photo_url": "/images/3106738/35027a0a1789ee3fae4b68d0b63f1912-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Бачо&хинкали",
+    "photo_url": "/images/3735503/4c60cb685884f1c5b97e20aac3e2e669-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Vosточно",
+    "photo_url": "/images/1380298/8da853ee959b4d93d30b9cc0eaf96f11-{w}x{h}.jpg",
+    "rating": "3.8",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "La mousse",
+    "photo_url": "/images/1380157/efa3b46bba8b7aebc20594451a19d8ef-{w}x{h}.jpg",
+    "rating": "4.1",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Блиндаж",
+    "photo_url": "/images/1370147/29ec13a72180265e1735b18b25b9b652-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Don Corleone Pizza",
+    "photo_url": "/images/3735503/ab94029024e9189311c6675f731e5dff-{w}x{h}.jpg",
+    "rating": "4.0",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "По Чесноку",
+    "photo_url": "/images/3806315/4a1d04802b298cfdc246c226636fb7cb-{w}x{h}.jpg",
+    "rating": "4.2",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Family grill",
+    "photo_url": "/images/3504598/10adc8b8ada81c8591a8e8f5a8fbbcc0-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Lavash Шаверма-бар",
+    "photo_url": "/images/1380298/81b5aac91d77b482cf0aa6453dd2faf8-{w}x{h}.jpg",
+    "rating": "4.1",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Кругли",
+    "photo_url": "/images/3772784/efd8d6d3a8dbe51cb4f2ee5881192fe2-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Wild Boudoir",
+    "photo_url": "/images/3439767/7ce990b43369cfb3b9b184527b028db9-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Массаке",
+    "photo_url": "/images/1387779/4c1d177a180eb7aacccc91b92b4d96c2-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Клубни",
+    "photo_url": "/images/3568095/763959a2e7684edd90a7e6d3559efd68-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Моменто",
+    "photo_url": "/images/1368744/6b333bd856ad93c2a2b1186672a258dd-{w}x{h}.JPG",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Суши Герой",
+    "photo_url": "/images/1368744/484bc128f9e56e6d5844e3c8d5d2e94f-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Кубик суши",
+    "photo_url": "/images/3528285/bce31ea8df90a81fe37787da1e687633-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Сыр да вино",
+    "photo_url": "/images/3580810/78ac55e333a4b043bde14dc868d30ebe-{w}x{h}.png",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Ура кондитеры",
+    "photo_url": "/images/1370147/494d1001593564702db59e8ad7962877-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Культ",
+    "photo_url": "/images/3725642/a75404f22bb05f22455a7b1d28f5a25d-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Кофейня Clover",
+    "photo_url": "/images/3807631/bfd82096f80bdf27c1fb12c0496be3f9-{w}x{h}.jpeg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Вилка-Ложка",
+    "photo_url": "/images/3807631/cd1a1c445baad25d3581c39d6da050a3-{w}x{h}.jpeg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Белочка",
+    "photo_url": "/images/3508859/bece7d2f92fe9f1677e52d6608662b0c-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Coffee like",
+    "photo_url": "/images/1368744/7455e4701590aeb6d5aea5275a47eb3d-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Gyros & Grill",
+    "photo_url": "/images/1387779/02899b72b53116b1129a288080f044ba-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Blinstore",
+    "photo_url": "/images/3483997/b90d91dcc7704af9a9143b55b1ab6476-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Есть повод",
+    "photo_url": "/images/3805363/d5b0fa629aaf536777aa0edb4599051d-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суши классика",
+    "photo_url": "/images/3784951/fb141aeea4086a9d86614987b71e91d4-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Шаурма Кафе Ника",
+    "photo_url": "/images/3568095/fcd3ca2280fd68b72835c87d4ff3ff6f-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Белый Тигр",
+    "photo_url": "/images/3208959/f464a0844afedc7f9496664f11a2975e-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Хитролл",
+    "photo_url": "/images/3456802/ef3bf2f6d2b5838b43871614bbbefca8-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Сушиnet",
+    "photo_url": "/images/3507285/e15fe73c31454baab968aa00c31f24e9-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Kaifa",
+    "photo_url": "/images/3568095/948fb64a5b7d76294b067618956606ce-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Кофе и Тортики",
+    "photo_url": "/images/1387779/742a116bbc3eea77359e37b3a823e4a1-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Ostrov",
+    "photo_url": "/images/3377781/752c3d69171ccd14cf38a4a9c6281a75-{w}x{h}.jpg",
+    "rating": "Новый",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Setik Sushi & Pizza",
+    "photo_url": "/images/3609085/ea1bcda071bdb6444c2c869bb68d0ac8-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суши Вес",
+    "photo_url": "/images/1368744/61d3b4a2b419a31a571e658a34630cea-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "VIP Sushi",
+    "photo_url": "/images/3507285/a1b503226fde5ddecb94e6526a6f56fd-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "У Симы",
+    "photo_url": "/images/1368744/abd557e9c871b568fec74526c3b4c627-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Территория Суши",
+    "photo_url": "/images/1368744/f372f718a38e9a2c9723c28968dad5ee-{w}x{h}.jpeg",
+    "rating": "4.1",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Бай кунак",
+    "photo_url": "/images/1380157/6f0f444959947c579b2241943bde0716-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Хачапурка",
+    "photo_url": "/images/1387779/494cadd9ba61cea296ca06921069dd4a-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Бабушка приехала",
+    "photo_url": "/images/1370147/7922d90e9547af6a19c4bff1a9027b3d-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Перекати бургер",
+    "photo_url": "/images/1380157/9d4c4ef3f50d0ce07ce249506cbdc95d-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "New project",
+    "photo_url": "/images/1380157/7dccee7666b1a20aa2b06557f4d9edeb-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Blackstone",
+    "photo_url": "/images/3502490/c6f645e1f93204497dbb2ed9415b40db-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Гурмэ",
+    "photo_url": "/images/2750126/c47d86436626d86fcc6b956a39512ef0-{w}x{h}.jpg",
+    "rating": "4.1",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суши хук",
+    "photo_url": "/images/1368744/e9a83aaa6a50591741a1861eb20166f5-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Песец",
+    "photo_url": "/images/3725642/901518938f7348c6900f4ac14210f4fc-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Тик-Так",
+    "photo_url": "/images/1380157/23018dd519918bdf9f87b1e687213ac3-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "СССР",
+    "photo_url": "/images/1368744/079fd0cc04f4d2a4a06d587f9e75e7d7-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Ресторация Маркштадт",
+    "photo_url": "/images/3581687/71a96d9b7567c32ca365ede4e41505a6-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Вкусно с Фрау Мюллер",
+    "photo_url": "/images/3508859/647996db97caadc1844da645d758dcad-{w}x{h}.jpg",
+    "rating": "3.6",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Умар №1",
+    "photo_url": "/images/1387779/ede06d57eaef3b943c7e56020bcf0015-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Дока-пицца",
+    "photo_url": "/images/1380157/63249af1d8013bb9117e30cfd9b4d5d0-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Суши Big & Small",
+    "photo_url": "/images/1368744/0a6fc9d9d9d2670e27bd7fb55f9de6a7-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Пироговая Мельница",
+    "photo_url": "/images/2806911/92c290ee086fbfcf87bfe83c9e083208-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Good Company",
+    "photo_url": "/images/3805363/5edab3161d17329f9dc7b281e07ddfee-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Дон Бульон",
+    "photo_url": "/images/1380157/b437acec78052764cc07dcfb3f9db70c-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Место встречи",
+    "photo_url": "/images/1380298/4f404e6be17635ac0aeaa4ba0e334406-{w}x{h}.jpg",
+    "rating": "4.0",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Kampai",
+    "photo_url": "/images/3813301/b65169d4e7f2d1abb519fc0f69c164d4-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Алаверди",
+    "photo_url": "/images/1370147/debc9f61f8c9a1c310f40eeb4005e30c-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Дока-хлеб",
+    "photo_url": "/images/1368744/a0c66cc61c6b8eca05cba6121aa94bb8-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Pro Brunch",
+    "photo_url": "/images/3790679/8f00a3cdf8995bd7dfaba289212d37a8-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "ДаСирКо",
+    "photo_url": "/images/3559865/46effc17cfce8937df97601724ff20d6-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Дом Хинкали",
+    "photo_url": "/images/1380298/7563c9cc6db84eab13a7e89f55312831-{w}x{h}.jpeg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Shawarmahouse",
+    "photo_url": "/images/3506707/eafc2092a5fe76a93097b1cf24196821-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Голодный космонавт",
+    "photo_url": "/images/3208959/78e4d399c54a518adf2245981d16f49d-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Центр Суши",
+    "photo_url": "/images/1387779/e5ae38726387f02a4c0c709f9cd94fc0-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Chester",
+    "photo_url": "/images/3682162/35da68621bfe7a11c8b72fcd857b6899-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Анталия",
+    "photo_url": "/images/1380157/e372db8f882d22cd2f247b4dc0838cb9-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Выбери",
+    "photo_url": "/images/1380157/b4e3df3dcfe9545e30500ff2c8ac3475-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Zebra",
+    "photo_url": "/images/1368744/2bec26ec976b6a1a074d76c4614b5132-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Красти Пицца",
+    "photo_url": "/images/1370147/9bfe7dcab6399a405b6f1fdab4da9291-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "4Pho",
+    "photo_url": "/images/3583740/9f8fac8471affa40c81e4ef891ce5d3e-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Ёбидоёби",
+    "photo_url": "/images/1387779/23705a85cd41e8a6914b5d0d674ba3f2-{w}x{h}.jpg",
+    "rating": "3.8",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Cafe-Cafe",
+    "photo_url": "/images/2353725/fab6ad60790697f8dcd82dcbaccdbea8-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Румян картофан",
+    "photo_url": "/images/3529621/180f109bec84c3f2598008d8c4f6d5dd-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Botanica Coffee",
+    "photo_url": "/images/3514991/9dd5f57a91698e19fc3a3fd8e68a5a3e-{w}x{h}.jpg",
+    "rating": "5.0 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Караван-сарай Фокус",
+    "photo_url": "/images/3528150/534e46034f742a6ce8677f11f3ce6f89-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Gong",
+    "photo_url": "/images/1368744/b68aa9b4eb38eb17adb569542338dc05-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Durem",
+    "photo_url": "/images/3583862/ce6090b97736dde814fa250dcef964cd-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Sancho's family",
+    "photo_url": "/images/1368744/8f72fddbc59ac3261e1ccc26526fd895-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Вареничная",
+    "photo_url": "/images/3525402/7a2311e60c22d97135eff83b61b1cd06-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Бар на Бейвеля",
+    "photo_url": "/images/1368744/18e6c74d4d454b18b182041eb46d8b1e-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Мастер Food",
+    "photo_url": "/images/3502800/82629ec660556e668db0f489150f7b48-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Темы Теоремы",
+    "photo_url": "/images/3682162/db66a0177c2a38a34d9a398b3d3ff36a-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Узбечка",
+    "photo_url": "/images/1380298/075dc6673c70b9a584a1cc0d2e9e6cdc-{w}x{h}.jpeg",
+    "rating": "4.0",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "KOZAn",
+    "photo_url": "/images/3472725/a99ca810300c871df32ca729ddaf8815-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Дзёдо",
+    "photo_url": "/images/1380157/32e1bdefb52004987c1b0b3b710a6527-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Mr. Mao",
+    "photo_url": "/images/1380157/87fdb754243b310dbf24350d70b54575-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Моя вина",
+    "photo_url": "/images/3528285/4ca419559b11c111c1bc631458fa4176-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Рисинка",
+    "photo_url": "/images/3514991/f1b10eb36fd4c6b1c216d54be759b8fb-{w}x{h}.jpg",
+    "rating": "4.0",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суши-Box",
+    "photo_url": "/images/1368744/46a8d35bc7351c1e186f10a907a8b87e-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Food Court",
+    "photo_url": "/images/1380157/8f6719dfd44b7f46cc3aeedf6f170372-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Свои Суши",
+    "photo_url": "/images/1380157/0032db6d0f567ced14ac9975ebdcfda5-{w}x{h}.jpeg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Пиццерия Перчик",
+    "photo_url": "/images/1368744/12695a65e201f1702ebcfbc9375ced76-{w}x{h}.jpeg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Dragon Mixology Bar",
+    "photo_url": "/images/3506804/533564fde7c45bafcf70ca0db63308a2-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Два шампура",
+    "photo_url": "/images/1380298/fc4a3d7f7b21d9b88584d252dbe33d83-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Кars Grill",
+    "photo_url": "/images/1370147/79ce9823c84792b46588f63654e5e0cf-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Mariage",
+    "photo_url": "/images/3541746/45ee8cc743e45224c4f6ac87d83510bd-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Crazybrothers",
+    "photo_url": "/images/1370147/56f2fe2abe2db9fc567b7624c6b06c6f-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Mozzarella Ёлки",
+    "photo_url": "/images/3595156/70257bbaa78f1abe835eb907615b3042-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Stopexpress",
+    "photo_url": "/images/3490335/f0cd22a8b0429775824c8eddd1f5d6aa-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Ipizza Ipasta Bar",
+    "photo_url": "/images/3806315/9315356bb48ec1456373e46927c78156-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Шоколадка",
+    "photo_url": "/images/1380157/8b3134e397c9996e8a81e509b6d91f16-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Моё место",
+    "photo_url": "/images/1370147/7f53f0ec2c547ec72f5a47cfaeb4e8e5-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Оливка",
+    "photo_url": "/images/1387779/a16f914c96a13fc4f806c347f8fa5aaf-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Людмила",
+    "photo_url": "/images/1380157/fe19d0cd0cec489a10e44f4ffc5a8588-{w}x{h}.jpeg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Trattoria Bart",
+    "photo_url": "/images/1380157/a7dc5828d9dee8269ac829842bb6e3cc-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Shalom",
+    "photo_url": "/images/3507668/21025eaae2e9f342f8bcbf7998498d5a-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Pasta Wok",
+    "photo_url": "/images/1380298/94b90a679af4919f970a4400ce256b6f-{w}x{h}.jpeg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Мангал клаб",
+    "photo_url": "/images/3512826/59dc3a45018afd0868a9955483e2c2c8-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Ром баба",
+    "photo_url": "/images/3806023/855d2aba089de28c72945018237fcd84-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Ура! Мороженое!",
+    "photo_url": "/images/3502490/4e5a87b767f01b23d880bb3159dd43a8-{w}x{h}.jpg",
+    "rating": "5.0 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Доставка Счастливая выпечка",
+    "photo_url": "/images/1387779/1c1666f33459e8e6578bba8dad1b1660-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Таврия",
+    "photo_url": "/images/3805363/b35a90c63dbd469e6802b556000c2ee0-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Империя & шашлык & шаурма",
+    "photo_url": "/images/1368744/9047faf9f2043eb9025b2f9767e96acb-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Bakery house",
+    "photo_url": "/images/1370147/6751e3bfff9b2a6b4d398fcded548992-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Картошка",
+    "photo_url": "/images/1387779/cd4eb34d97864f965ccdc5630f1edbb8-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Фаворит вкуса",
+    "photo_url": "/images/1368744/02bbbc383cd574a96edaa6ba155bb04b-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Gastro Dog",
+    "photo_url": "/images/3518584/b6de874760e1589911115987eb504caf-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Fun Tea & Coffee",
+    "photo_url": "/images/1380157/27ce4ef893283436342f4c9c9a60d438-{w}x{h}.jpg",
+    "rating": "4.8 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суджико",
+    "photo_url": "/images/1380157/6f00bf775439dd8d19bbccd2f6d3820d-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Gelateria Plombir",
+    "photo_url": "/images/2050703/c40f910ee9bd05fbf9ba59e7bb972380-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Вкус счастья LilPet",
+    "photo_url": "/images/1387779/7feb519e865b10a94bf4d0d44501bc43-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Family Dessert",
+    "photo_url": "/images/2050703/5930fba694f652d73bc3e7c5878f87d4-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Ром-баба РимПицца",
+    "photo_url": "/images/3491582/224f03391822bfce4c16922b7f47e5ec-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "360° шаурма народов мира",
+    "photo_url": "/images/1380157/ffa1062ad55601d4c0d1da0de293a489-{w}x{h}.jpg",
+    "rating": "4.1",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Coffee Lab",
+    "photo_url": "/images/3709189/0964b244b068145274ee42696c55e4bf-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Road Cafe",
+    "photo_url": "/images/1380157/14e4bb62f535a8bcbdaff5ae6b0e4854-{w}x{h}.jpg",
+    "rating": "3.9",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Andrew Baker",
+    "photo_url": "/images/1387779/209ab82574758412910ff332fbc99d39-{w}x{h}.jpeg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Cakeberry",
+    "photo_url": "/images/2796335/5f7b373c999d6daf0124a1e26557a06c-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Блин & Гирос",
+    "photo_url": "/images/3609085/471852f076892d6663858f5f8725b032-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "DoZaCoffee Company",
+    "photo_url": "/images/1368744/d10ba33baf5438eaa1da495ade6351a1-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Cookies Пекарня",
+    "photo_url": "/images/3506707/e200acb81940dd76f882c0f8e9628f05-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Порция обеда",
+    "photo_url": "/images/3490335/dd61229f407d176b3a140d06cc8a2530-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Босс Котлетос",
+    "photo_url": "/images/1380157/2eba583fd9a9a31eac2df709b973e171-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Мёд",
+    "photo_url": "/images/1368744/d93decc7fe8483fd59193db0312b74a2-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "На старом месте",
+    "photo_url": "/images/3502490/c39c5d2cb519646ef071e969f165a80b-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Пельмешка с лаврушкой",
+    "photo_url": "/images/3512826/54a545b4384040ed0468e501469a80c9-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Пекарня Расстегай",
+    "photo_url": "/images/1368744/131a3f4efe80917eae40811552a42b3e-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Хан",
+    "photo_url": "/images/1368744/690ed9e1bd200f0aeaa2332f696d252a-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Кафе Ника",
+    "photo_url": "/images/1380157/8f38ed8a96627d0a08cf1640b119aeb1-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Holiday Pizza",
+    "photo_url": "/images/1368744/d2943b21993a0a635560b4608da861dd-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Пельменная",
+    "photo_url": "/images/1370147/ac82595178b7816c5f31ff6c9ca66c71-{w}x{h}.jpeg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Шашлык, шаурма, блюда из тандыра",
+    "photo_url": "/images/1368744/aab898e7b21b70f2de90113239d9a751-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "K Caramel",
+    "photo_url": "/images/3456802/f7861261aa7951e199b5805e2dc31040-{w}x{h}.jpeg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Утес",
+    "photo_url": "/images/3435765/a3079414d1e81258a68c4964ad81f787-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Empire Food",
+    "photo_url": "/images/3512182/dac359fba57e8cd082631e08c5d9ca21-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Mary Cakes",
+    "photo_url": "/images/1380298/e781d53e00274c0c9c6a2cceefdeacb5-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Семейный рецепт",
+    "photo_url": "/images/3806466/0389fc20c7d1e97814661ad54512a40c-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Foodlink",
+    "photo_url": "/images/2796335/b8a0521c8b71c7f928ee20d3e33e2665-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Marseti",
+    "photo_url": "/images/3512826/a06bd668b546bd85ef6d0eac40db4c0a-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Get Food",
+    "photo_url": "/images/3483997/2a499b74dbcf564c9fd8e7518b81ea5c-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Respublica Sushi",
+    "photo_url": "/images/1387779/1dd9ec4beaba3dd5309562f58596656f-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Хоровац Tun",
+    "photo_url": "/images/1380157/eaa2a46fe627ce2c2885fee84b57f1c4-{w}x{h}.JPG",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Fix Пекарь",
+    "photo_url": "/images/1380298/c6183eaaf641f8cd0b3193286e56100a-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Северо-Западный Markt",
+    "photo_url": "/images/1380298/284e164f86dde920f5d5fba2443c1c3e-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Анюта",
+    "photo_url": "/images/1380298/3cb2c29641eccc67f75f1f8c5951098e-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Столовица",
+    "photo_url": "/images/1380298/f01d28412ffba03c61dd718be6e60450-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Сфера",
+    "photo_url": "/images/1368744/af31c58b91181191a600f0669ab617d5-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Гурмедейс",
+    "photo_url": "/images/3513074/caefbbf65d456bb62ab2373befb1d574-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Топка Еда & Кофе",
+    "photo_url": "/images/3816972/933d202a11aab66b0f39fcf47f6a4a38-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Гастропаб Дабл Эль",
+    "photo_url": "/images/3806023/d0a29c6ea3da89234e3fa5095050a510-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Boris Bar",
+    "photo_url": "/images/3790679/b86fe4ff74db5a895516acdcf7222e82-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Pizza Mia",
+    "photo_url": "/images/1380157/bb6145caa2766cb686fcc617d7483b59-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Твоя вина",
+    "photo_url": "/images/1380298/c9c8608dd80bd0db31dde244e050f4de-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Akatsuki",
+    "photo_url": "/images/1380157/887a714bdf71573e28a31fc57b742908-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Лес",
+    "photo_url": "/images/2806911/4b37eaaecf486beaf352addb19f96d05-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Шафран",
+    "photo_url": "/images/1380157/8006f902546d4d04f088b42d191976ee-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Муш",
+    "photo_url": "/images/1380157/a778c1ad702b50b27c358480b7b21a06-{w}x{h}.jpg",
+    "rating": "3.6",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Дикие крылья",
+    "photo_url": "/images/1380298/fa077a267bba2fbfdbdf314f6346fae9-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Марракеш",
+    "photo_url": "/images/2050703/7bfe2a037eaf284436129c503283699e-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Золотой цыплёнок",
+    "photo_url": "/images/3512182/a44005dafc2fbce20dfbfffe9c0d2210-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Prostobar",
+    "photo_url": "/images/1380157/4b23254d3116b81f35c606d007612a19-{w}x{h}.jpg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Раки-Раки",
+    "photo_url": "/images/1380157/36363fcd67d01a961575bfd964401334-{w}x{h}.jpg",
+    "rating": "4.6 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Шаурмания",
+    "photo_url": "/images/2794391/8fc7ede51ed8bc8759d5deb040223cf9-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Craft Food House",
+    "photo_url": "/images/1380157/8a93b9d76e41638748fb51e384f5f389-{w}x{h}.jpg",
+    "rating": "4.4",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Кафе бар Баклажан",
+    "photo_url": "/images/3806315/59e6609337e4924dcd644d8dc2cb06e2-{w}x{h}.jpg",
+    "rating": "4.7 Хорошо",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "Saigon",
+    "photo_url": "/images/3502800/0b5553b9b8f1d2e65f00f0ac689c3377-{w}x{h}.jpg",
+    "rating": "3.7",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Мёш",
+    "photo_url": "/images/3568095/e2a36197155866e9dc71cf55ef74d8c9-{w}x{h}.jpg",
+    "rating": "4.9 Отлично",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 1
+    }
+  },
+  {
+    "name": "ЗаЕду",
+    "photo_url": "/images/3525402/136219e649c189c0901e4c356024592b-{w}x{h}.jpeg",
+    "rating": "4.5",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Виноград",
+    "photo_url": "/images/1380157/6d6dffd0ca47b1f33d0ef284a711607c-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Челентано",
+    "photo_url": "/images/3806023/be51a53362e7d2cdec530a74546cf21a-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  },
+  {
+    "name": "Jagger",
+    "photo_url": "/images/1380298/931698f7a4bb192729a46aa3d14e71ac-{w}x{h}.jpg",
+    "rating": "4.3",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Мути Добро Бро",
+    "photo_url": "/images/3490902/524cd49906a772ea87bf9fc38dd29d27-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Моя кухня",
+    "photo_url": "/images/1380298/f031bbc1dd8632831da96f3800c373c3-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Суши Москва",
+    "photo_url": "/images/1387779/d31a4f79eaf2e6377d89e9628ad9bf1e-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Gipsy Bar",
+    "photo_url": "/images/1380157/5ea6024ac482f9a6007fb93a9ed516f3-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Ной",
+    "photo_url": "/images/3595381/4ab037732ce46baf80823207753f6dc8-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Бар Шахта",
+    "photo_url": "/images/1387779/8dd5b19e9f4ac433d01d4043fa80902f-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Лидия",
+    "photo_url": "/images/2394388/c6bbc94eaa594065f7645dfa19ab0f39-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Daddy's Choice",
+    "photo_url": "/images/1380157/9cbbd08fd0f5fa7bda23e666c0c92f76-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 2
+    }
+  },
+  {
+    "name": "Брюгге-бар",
+    "photo_url": "/images/3472725/8a567c7c8a15de8d77960f37db93cdfa-{w}x{h}.jpg",
+    "rating": "Мало оценок",
+    "price_category": {
+      "currency_sign": "₽",
+      "total_symbols": 3,
+      "highlighted_symbols": 3
+    }
+  }
 ]

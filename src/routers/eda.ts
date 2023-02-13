@@ -1,6 +1,5 @@
-import fetch from 'node-fetch';
+import { Place } from "../types";
 import fs from 'fs';
-import { Place } from './types';
 
 fetch("https://eda.yandex.ru/eats/v1/layout-constructor/v1/layout", {
   "headers": {
@@ -38,17 +37,3 @@ fetch("https://eda.yandex.ru/eats/v1/layout-constructor/v1/layout", {
     })
     fs.writeFileSync("data.json", JSON.stringify(list, null, 2));
 });
-
-
-
-/*
-
-
-let wid = JSON.parse((await(await fetch("https://www.afisha.ru/chelyabinsk/")).text()).split("React.createElement(__desktopComponents.App,")[1].split('),document.getElementById("content")')[0]).model.Widgets;
-
-[].concat.apply([], Object.keys(wid).filter(e=>e!="ThemeWidgets").map(key=>{
-    return wid[key].Items
-}).concat(wid.ThemeWidgets.map(e=>e.RcmSeoItems)))
-
-
-*/
