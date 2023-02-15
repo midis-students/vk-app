@@ -1,0 +1,152 @@
+[
+  {
+    "id": "oskar_food",
+    "brand": "oskar_food",
+    "name": "Oskar Food",
+    "photo_url": "https://eda.yandex.ru/images/3490902/d03994db318aa6fbb18c377fe19a25bf-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.131975,
+        "longitude": 61.451494
+      },
+      "short": "улица Агалакова, 58"
+    },
+    "rating": "Новый",
+    "price": 524
+  },
+  {
+    "id": "bk_soni24",
+    "brand": "burger_king_ynrku",
+    "name": "Бургер Кинг",
+    "photo_url": "https://eda.yandex.ru/images/3436037/0b8f38d72256c03fad684f94439bfba5-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.15838,
+        "longitude": 61.39658
+      },
+      "short": "улица Сони Кривой, 24"
+    },
+    "rating": "4.9",
+    "price": 342
+  },
+  {
+    "id": "kfc_uevjc",
+    "brand": "kfc_ru",
+    "name": "KFC",
+    "photo_url": "https://eda.yandex.ru/images/3559865/ee31782ce8a630a015b6b94fd07b3351-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.157428,
+        "longitude": 61.395098
+      },
+      "short": "Воровского, 6"
+    },
+    "rating": "4.8",
+    "price": 189
+  },
+  {
+    "id": "vkusno__i_tochka_fzqpy",
+    "brand": "vkusnoitochka",
+    "name": "Вкусно – и точка",
+    "photo_url": "https://eda.yandex.ru/images/3580810/a91a396cfada8d661404141cb1795615-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.157428,
+        "longitude": 61.395098
+      },
+      "short": "улица Воровского, 6"
+    },
+    "rating": "4.7",
+    "price": 173
+  },
+  {
+    "id": "na_truda_truda_148",
+    "brand": "na_truda",
+    "name": "На Труда",
+    "photo_url": "https://eda.yandex.ru/images/3502728/22ef60f6bb420e6929a1bbec78a05f7c-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.168197,
+        "longitude": 61.386016
+      },
+      "short": "улица Труда, 148"
+    },
+    "rating": "4.7",
+    "price": 343
+  },
+  {
+    "id": "patriot_klary_cetkin_48_etyng",
+    "brand": "patriot",
+    "name": "Патриот",
+    "photo_url": "https://eda.yandex.ru/images/1380157/0352d979cb65a779e3a3f2939c551137-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.16306,
+        "longitude": 61.383258
+      },
+      "short": "улица Клары Цеткин, 48"
+    },
+    "rating": "4.8",
+    "price": 168
+  },
+  {
+    "id": "meatgrinder",
+    "brand": "myasorubka",
+    "name": "Бургерная Мясорубка",
+    "photo_url": "https://eda.yandex.ru/images/1368744/caf0155fc814d227f53d901422260684-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.155688,
+        "longitude": 61.369974
+      },
+      "short": "Тернопольская улица, 6"
+    },
+    "rating": "4.8",
+    "price": 277
+  },
+  {
+    "id": "senior_pomisor_6",
+    "brand": "pomidor",
+    "name": "Помидор",
+    "photo_url": "https://eda.yandex.ru/images/1380298/a653a2b8bb33dc1eac227f08e9b466a1-{w}x{h}.jpeg",
+    "location": {
+      "geo": {
+        "latitude": 55.160951,
+        "longitude": 61.40126
+      },
+      "short": "улица Кирова, 177"
+    },
+    "rating": "4.8",
+    "price": 422
+  },
+  {
+    "id": "set_kafestolovyx_seliseli_kirova_104",
+    "brand": "set_kafestolovyx_seliseli_erwbs",
+    "name": "Сели-Съели",
+    "photo_url": "https://eda.yandex.ru/images/3506707/7c9b85cc9d9e3977d2cbeb1d20eac2ba-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.167287,
+        "longitude": 61.411869
+      },
+      "short": "улица Свободы, 77"
+    },
+    "rating": "4.7",
+    "price": 191
+  },
+  {
+    "id": "bao_kecsr",
+    "brand": "bao_bdomz",
+    "name": "Bao",
+    "photo_url": "https://eda.yandex.ru/images/3807631/9838ea7a440d06b9df6e3e8d004ec199-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.156081,
+        "longitude": 61.370071
+      },
+      "short": "Тернопольская улица, 6"
+    },
+    "rating": "4.8",
+    "price": 315
+  }
+]

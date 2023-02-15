@@ -1,4 +1,9 @@
 {
   "forwardPorts": [10000],
+  "portsAttributes": {
+    "10000": {
+      "visibility": "public"
+    }
+  },
   "postAttachCommand": "/bin/bash .devcontainer/setup.sh"
 }

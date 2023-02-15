@@ -1,24 +1,31 @@
 export interface MetaRating extends Meta {
-    title: string
+  title: string;
 }
 
 export interface MetaPriceCategory extends Meta {
-    currency_sign: string;
-    total_symbols: number;
-    highlighted_symbols: number;
+  currency_sign: string;
+  total_symbols: number;
+  highlighted_symbols: number;
 }
 
 export interface Meta {
-    type: "rating" | "price_category"
+  type: "rating" | "price_category";
 }
 
+export type PlaceLocation = {
+  geo: {
+    latitude: number;
+    longitude: number;
+  };
+  short: string;
+};
+
 export type Place = {
-    name: string;
-    photo_url: string;
-    rating?: string;
-    price_category?: {
-        currency_sign: string;
-        total_symbols: number;
-        highlighted_symbols: number;
-    };
-}
+  id: string;
+  brand: string;
+  name: string;
+  photo_url: string;
+  rating?: string;
+  location: PlaceLocation;
+  price: number;
+};

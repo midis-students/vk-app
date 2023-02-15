@@ -1,45 +1,37 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
 import { Place } from './types';
+import Fastify from 'fastify';
+import App from './app';
 
-fetch("https://eda.yandex.ru/eats/v1/layout-constructor/v1/layout", {
-  "headers": {
-    "accept": "application/json, text/plain, */*",
-    "accept-language": "ru",
-    "content-type": "application/json;charset=UTF-8",
-    "x-device-id": "1"
-  },
-  "body": "{\"region_id\":37,\"filters\":[]}",
-  "method": "POST"
-}).then(async data=>{
-    let { data: { places_lists } }= await data.json()
-    let places=[].concat.apply([], places_lists.filter(({template_name}: {template_name: string})=>template_name="PLACES_LIST_OPEN").map((e:any)=>e.payload.places))
-    let list: Place[] = places.map((place: any)=>{
-        let out: Place = {
-            name: place?.name,
-            photo_url: place?.media?.photos?.[0]?.uri
-        }
+async function start() {
+  const fastify = Fastify({
+    logger: {
+      transport: {
+        target: "pino-pretty",
+        options: {
+          translateTime: "HH:MM:ss",
+          ignore: "pid,hostname,reqId,res",
+        },
+      },
+    },
+    disableRequestLogging: true,
+  });
+  
+  await fastify.register(App);
 
-        place?.data?.meta?.forEach((meta: any)=>{
-            let {type, payload} = meta;
-            switch (type) {
-                case "rating":
-                    out['rating']=payload.title
-                case "price_category":
-                    out['price_category']={
-                        currency_sign: payload.currency_sign,
-                        total_symbols: payload.total_symbols,
-                        highlighted_symbols: payload.highlighted_symbols
-                    }
-            }
-        })
+  const port = Number(process.env.PORT) || 10000;
+  const host = "0.0.0.0";
 
-        return out
-    })
-    fs.writeFileSync("data.json", JSON.stringify(list, null, 2));
+  fastify.listen({ port, host }, (err) => {
+    if (err) throw err;
+  });
+}
+  
+start().catch((err) => {
+    console.error(err);
+    process.exit(1);
 });
-
-
 
 /*
 
