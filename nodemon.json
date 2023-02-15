@@ -2,5 +2,5 @@
     "watch": ["src"],
     "ext": ".ts,.js",
     "ignore": [],
-    "exec": "gh codespace ports visibility 10000:public -c $CODESPACE_NAME && ts-node ./src/index.ts"
+    "exec": "ts-node ./src/index.ts"
 }

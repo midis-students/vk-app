@@ -1,8 +1,9 @@
-import fetch from 'node-fetch';
-import fs from 'fs';
-import { Place } from './types';
-import Fastify from 'fastify';
-import App from './app';
+import fetch from "node-fetch";
+import fs from "fs";
+import { Place } from "./types";
+import Fastify from "fastify";
+import App from "./app";
+import { exec, spawn } from "child_process";
 
 async function start() {
   const fastify = Fastify({
@@ -17,20 +18,43 @@ async function start() {
     },
     disableRequestLogging: true,
   });
-  
+
   await fastify.register(App);
 
   const port = Number(process.env.PORT) || 10000;
   const host = "0.0.0.0";
 
+  fastify.ready((err) => {
+    if (err) throw err;
+    setTimeout(() => {
+      console.log("spawn");
+      exec(
+        "gh codespace ports visibility 10000:public -c $CODESPACE_NAME",
+        (error, stdout, stderr) => {
+          if (error) {
+            console.error(`error: ${error.message}`);
+            return;
+          }
+
+          if (stderr) {
+            console.error(`stderr: ${stderr}`);
+            return;
+          }
+
+          console.log(`stdout:\n${stdout}`);
+        }
+      );
+    }, 5000);
+  });
+
   fastify.listen({ port, host }, (err) => {
     if (err) throw err;
   });
 }
-  
+
 start().catch((err) => {
-    console.error(err);
-    process.exit(1);
+  console.error(err);
+  process.exit(1);
 });
 
 /*
