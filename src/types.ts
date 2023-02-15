@@ -29,3 +29,13 @@ export type Place = {
   location: PlaceLocation;
   price: number;
 };
+
+export type Event = {
+  name: string; 
+}
+
+export type UpdateQuery = {
+  Querystring: {
+    t: string;
+  };
+};

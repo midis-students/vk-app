@@ -10,13 +10,14 @@ import S from "fluent-json-schema";
 const app: FastifyPluginAsync = async (fastify, options) => {
   await fastify.register(Env, {
     schema: S.object()
-      .prop("PORT", S.number())
+      .prop("PORT", S.number().default(10000))
+      .prop("UPDATE_TOKEN", S.string().default("nedamir"))
       .valueOf(),
     dotenv: true,
   });
   await fastify.register(Cors, {
     origin: "*",
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   });
   await fastify.register(Sensible);
 

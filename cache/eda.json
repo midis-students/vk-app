@@ -1,20 +1,5 @@
 [
   {
-    "id": "oskar_food",
-    "brand": "oskar_food",
-    "name": "Oskar Food",
-    "photo_url": "https://eda.yandex.ru/images/3490902/d03994db318aa6fbb18c377fe19a25bf-{w}x{h}.jpg",
-    "location": {
-      "geo": {
-        "latitude": 55.131975,
-        "longitude": 61.451494
-      },
-      "short": "улица Агалакова, 58"
-    },
-    "rating": "Новый",
-    "price": 524
-  },
-  {
     "id": "bk_soni24",
     "brand": "burger_king_ynrku",
     "name": "Бургер Кинг",
@@ -42,7 +27,7 @@
       "short": "Воровского, 6"
     },
     "rating": "4.8",
-    "price": 189
+    "price": 191
   },
   {
     "id": "vkusno__i_tochka_fzqpy",
@@ -72,81 +57,246 @@
       "short": "улица Труда, 148"
     },
     "rating": "4.7",
-    "price": 343
+    "price": 344
   },
   {
-    "id": "patriot_klary_cetkin_48_etyng",
-    "brand": "patriot",
-    "name": "Патриот",
-    "photo_url": "https://eda.yandex.ru/images/1380157/0352d979cb65a779e3a3f2939c551137-{w}x{h}.jpg",
+    "id": "centr_sushi_kuznechnaya_9_srfng",
+    "brand": "centr_sushi",
+    "name": "Центр Суши",
+    "photo_url": "https://eda.yandex.ru/images/1387779/e5ae38726387f02a4c0c709f9cd94fc0-{w}x{h}.jpg",
     "location": {
       "geo": {
-        "latitude": 55.16306,
-        "longitude": 61.383258
+        "latitude": 55.134826,
+        "longitude": 61.399589
       },
-      "short": "улица Клары Цеткин, 48"
-    },
-    "rating": "4.8",
-    "price": 168
-  },
-  {
-    "id": "meatgrinder",
-    "brand": "myasorubka",
-    "name": "Бургерная Мясорубка",
-    "photo_url": "https://eda.yandex.ru/images/1368744/caf0155fc814d227f53d901422260684-{w}x{h}.jpg",
-    "location": {
-      "geo": {
-        "latitude": 55.155688,
-        "longitude": 61.369974
-      },
-      "short": "Тернопольская улица, 6"
-    },
-    "rating": "4.8",
-    "price": 277
-  },
-  {
-    "id": "senior_pomisor_6",
-    "brand": "pomidor",
-    "name": "Помидор",
-    "photo_url": "https://eda.yandex.ru/images/1380298/a653a2b8bb33dc1eac227f08e9b466a1-{w}x{h}.jpeg",
-    "location": {
-      "geo": {
-        "latitude": 55.160951,
-        "longitude": 61.40126
-      },
-      "short": "улица Кирова, 177"
-    },
-    "rating": "4.8",
-    "price": 422
-  },
-  {
-    "id": "set_kafestolovyx_seliseli_kirova_104",
-    "brand": "set_kafestolovyx_seliseli_erwbs",
-    "name": "Сели-Съели",
-    "photo_url": "https://eda.yandex.ru/images/3506707/7c9b85cc9d9e3977d2cbeb1d20eac2ba-{w}x{h}.jpg",
-    "location": {
-      "geo": {
-        "latitude": 55.167287,
-        "longitude": 61.411869
-      },
-      "short": "улица Свободы, 77"
+      "short": "Кузнечная улица, 9"
     },
     "rating": "4.7",
-    "price": 191
+    "price": 621
   },
   {
-    "id": "bao_kecsr",
-    "brand": "bao_bdomz",
-    "name": "Bao",
-    "photo_url": "https://eda.yandex.ru/images/3807631/9838ea7a440d06b9df6e3e8d004ec199-{w}x{h}.jpg",
+    "id": "kafe_antaliya_molodogvardejcev_68g",
+    "brand": "kafe_antaliya",
+    "name": "Анталия",
+    "photo_url": "https://eda.yandex.ru/images/1380157/e372db8f882d22cd2f247b4dc0838cb9-{w}x{h}.jpg",
     "location": {
       "geo": {
-        "latitude": 55.156081,
-        "longitude": 61.370071
+        "latitude": 55.179796,
+        "longitude": 61.332189
       },
-      "short": "Тернопольская улица, 6"
+      "short": "улица Молодогвардейцев, 68Г"
+    },
+    "rating": "4.7",
+    "price": 186
+  },
+  {
+    "id": "Subway_kirova",
+    "brand": "subway",
+    "name": "Subway",
+    "photo_url": "https://eda.yandex.ru/images/3595156/526cc4f57b5be155ab723131c7c199e7-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.159455,
+        "longitude": 61.383958
+      },
+      "short": "проспект Ленина, 71"
+    },
+    "rating": "4.7",
+    "price": 265
+  },
+  {
+    "id": "super_burger_cvillinga_15_bteyz",
+    "brand": "super_burger",
+    "name": "Супер Бургер",
+    "photo_url": "https://eda.yandex.ru/images/1387779/b5f91a06136deb0e84841edc3d9e85e5-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.169961,
+        "longitude": 61.3911
+      },
+      "short": "Свердловский проспект, 51А"
+    },
+    "rating": "4.9",
+    "price": 205
+  },
+  {
+    "id": "frank_by_oznjk",
+    "brand": "frank_by_xtmul",
+    "name": "Frank by Баста",
+    "photo_url": "https://eda.yandex.ru/images/3512182/1a9f6829bb21792b1ddc2b350bf86954-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.154774,
+        "longitude": 61.371041
+      },
+      "short": "Витебская улица, 4"
     },
     "rating": "4.8",
-    "price": 315
+    "price": 466
+  },
+  {
+    "id": "pho_bro_vorovskogo_17",
+    "brand": "pho_bro",
+    "name": "Pho bro",
+    "photo_url": "https://eda.yandex.ru/images/1380298/b00f774e436af63d60a37c3e2fd1daa6-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.152994,
+        "longitude": 61.392151
+      },
+      "short": "улица Воровского, 17"
+    },
+    "rating": "4.8",
+    "price": 317
+  },
+  {
+    "id": "mamana_mama_2",
+    "brand": "manana_mama",
+    "name": "Манана мама 2",
+    "photo_url": "https://eda.yandex.ru/images/3749380/c4953495da083891d12a45006bc0b95a-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.158133,
+        "longitude": 61.406165
+      },
+      "short": "улица Цвиллинга, 42"
+    },
+    "rating": "4.6",
+    "price": 295
+  },
+  {
+    "id": "kimpab_svobody_139",
+    "brand": "kimpab",
+    "name": "КИМПАБ",
+    "photo_url": "https://eda.yandex.ru/images/1368744/9482cdc703c35e759d447547a71f9875-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.163055,
+        "longitude": 61.417546
+      },
+      "short": "площадь МОПРа, 9"
+    },
+    "rating": "4.6",
+    "price": 424
+  },
+  {
+    "id": "golodnyj_gagarin_kommunarov_34",
+    "brand": "golodnyj_gagarin_pqmbl",
+    "name": "Голодный космонавт",
+    "photo_url": "https://eda.yandex.ru/images/3208959/78e4d399c54a518adf2245981d16f49d-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.134672,
+        "longitude": 61.43192
+      },
+      "short": "улица Коммунаров, 34"
+    },
+    "rating": "4.8",
+    "price": 623
+  },
+  {
+    "id": "xachapuri_tyotushki_mariko",
+    "brand": "xachapuri_tyotushki_mariko",
+    "name": "Хачапури тётушки марико",
+    "photo_url": "https://eda.yandex.ru/images/3513074/7d81b80bdd928155dade163f3ffd2b5a-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.154774,
+        "longitude": 61.371041
+      },
+      "short": "Витебская улица, 4"
+    },
+    "rating": "4.6",
+    "price": 415
+  },
+  {
+    "id": "myaso_est_gomew",
+    "brand": "myaso_est_zgpjc",
+    "name": "Мясо есть",
+    "photo_url": "https://eda.yandex.ru/images/1368744/716eeab7e89040c94b0a661df13d6966-{w}x{h}.jpeg",
+    "location": {
+      "geo": {
+        "latitude": 55.165873,
+        "longitude": 61.404081
+      },
+      "short": "улица Цвиллинга, 15"
+    },
+    "rating": "4.6",
+    "price": 299
+  },
+  {
+    "id": "viet_quan_igubq",
+    "brand": "viet_quan",
+    "name": "Viet Quan",
+    "photo_url": "https://eda.yandex.ru/images/1380157/afe59ae9b5fabb11989b61ff56d540c8-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.166893,
+        "longitude": 61.400165
+      },
+      "short": "улица Кирова, 86"
+    },
+    "rating": "4.7",
+    "price": 351
+  },
+  {
+    "id": "the_pechka_qmrwb",
+    "brand": "the_pechka_qizjv",
+    "name": "The Pechka",
+    "photo_url": "https://eda.yandex.ru/images/1380157/cbe61da9550adfc633e4fe2cb21c6276-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.170784,
+        "longitude": 61.374562
+      },
+      "short": "улица Труда, 166"
+    },
+    "rating": "4.9",
+    "price": 376
+  },
+  {
+    "id": "marmaris_gxmrz",
+    "brand": "marmaris",
+    "name": "Marmaris",
+    "photo_url": "https://eda.yandex.ru/images/1387779/7836ae005f1e9a8ace8e3b5460545fa8-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.163513,
+        "longitude": 61.430931
+      },
+      "short": "Артиллерийская улица, 136"
+    },
+    "rating": "4.7",
+    "price": 278
+  },
+  {
+    "id": "rumyan_kartofan_truda_203",
+    "brand": "rumyan_kartofan",
+    "name": "Румян картофан",
+    "photo_url": "https://eda.yandex.ru/images/3529621/180f109bec84c3f2598008d8c4f6d5dd-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.171051,
+        "longitude": 61.355976
+      },
+      "short": "улица Труда, 203"
+    },
+    "rating": "4.5",
+    "price": 97
+  },
+  {
+    "id": "crasti_crab",
+    "brand": "krasti_picca",
+    "name": "Красти Пицца",
+    "photo_url": "https://eda.yandex.ru/images/1370147/9bfe7dcab6399a405b6f1fdab4da9291-{w}x{h}.jpg",
+    "location": {
+      "geo": {
+        "latitude": 55.175573,
+        "longitude": 61.312677
+      },
+      "short": "улица 40-летия Победы, 44"
+    },
+    "rating": "4.7",
+    "price": 435
   }
 ]

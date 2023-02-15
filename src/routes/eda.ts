@@ -1,4 +1,4 @@
-import { Place, PlaceLocation } from "../types";
+import { Place, PlaceLocation, UpdateQuery } from "../types";
 import fs from "fs";
 import { FastifyPluginAsync } from "fastify";
 
@@ -7,7 +7,9 @@ export const autoPrefix = "/eda";
 const EdaRoutes: FastifyPluginAsync = async (fastify) => {
   const {} = fastify;
 
-  fastify.get("/update", async (req, reply) => {
+  fastify.get<UpdateQuery>("/update", async (req, reply) => {
+    if (req.query.t != process.env.UPDATE_TOKEN)
+      throw fastify.httpErrors.forbidden("access denied");
     const edaResponse = await fetch(
       "https://eda.yandex.ru/eats/v1/layout-constructor/v1/layout",
       {
@@ -36,7 +38,7 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
             )
             .map((e: any) => e.payload.places)
         )
-        .slice(0, 10);
+        .slice(0, 20);
 
       let list: Place[] = await Promise.all(
         places.map(async (place: any) => {

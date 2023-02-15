@@ -24,29 +24,6 @@ async function start() {
   const port = Number(process.env.PORT) || 10000;
   const host = "0.0.0.0";
 
-  fastify.ready((err) => {
-    if (err) throw err;
-    setTimeout(() => {
-      console.log("spawn");
-      exec(
-        "gh codespace ports visibility 10000:public -c $CODESPACE_NAME",
-        (error, stdout, stderr) => {
-          if (error) {
-            console.error(`error: ${error.message}`);
-            return;
-          }
-
-          if (stderr) {
-            console.error(`stderr: ${stderr}`);
-            return;
-          }
-
-          console.log(`stdout:\n${stdout}`);
-        }
-      );
-    }, 5000);
-  });
-
   fastify.listen({ port, host }, (err) => {
     if (err) throw err;
   });
@@ -60,7 +37,7 @@ start().catch((err) => {
 /*
 
 
-let wid = JSON.parse((await(await fetch("https://www.afisha.ru/chelyabinsk/")).text()).split("React.createElement(__desktopComponents.App,")[1].split('),document.getElementById("content")')[0]).model.Widgets;
+let wid = JSON.parse((await(await fetch("https://www.afisha.ru/chelyabinsk/events/na-segodnya/")).text()).split("React.createElement(__desktopComponents.App,")[1].split('),document.getElementById("content")')[0]).model.Widgets;
 
 [].concat.apply([], Object.keys(wid).filter(e=>e!="ThemeWidgets").map(key=>{
     return wid[key].Items
