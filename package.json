@@ -6,8 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "ts-node ./src/index.ts",
-    "dev": "nodemon",
-    "cs-port": "gh codespace ports visibility 10000:public -c $CODESPACE_NAME && nodemon"
+    "dev": "nodemon"
   },
   "repository": {
     "type": "git",

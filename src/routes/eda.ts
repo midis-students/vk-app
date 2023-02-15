@@ -38,9 +38,6 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
         )
         .slice(0, 10);
 
-      // https://eda.yandex.ru/eats/v1/eats-catalog/v1/brand/oskar_food?regionId=37
-      // https://eda.yandex.ru/api/v2/menu/retrieve/oskar_food?regionId=37
-
       let list: Place[] = await Promise.all(
         places.map(async (place: any) => {
           let infoResponse: any = await fetch(
@@ -127,7 +124,7 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
         })
       );
 
-      await fs.writeFileSync("eda.json", JSON.stringify(list, null, 2));
+      await fs.writeFileSync("./cache/eda.json", JSON.stringify(list, null, 2));
 
       return list;
     } else {
@@ -136,7 +133,7 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
   });
 
   fastify.get("/", async (req, reply) => {
-    return JSON.parse(fs.readFileSync("eda.json", "utf-8"));
+    return JSON.parse(fs.readFileSync("./cache/eda.json", "utf-8"));
   });
 };
 
