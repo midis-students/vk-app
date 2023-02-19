@@ -1,10 +1,20 @@
-import { Place, PlaceLocation, UpdateQuery } from "../types";
+import { APIPlace, UpdateQuery } from "../types";
 import fs from "fs";
 import { FastifyPluginAsync } from "fastify";
 
-export const autoPrefix = "/eda";
+export const autoPrefix = "/list";
 
-const EdaRoutes: FastifyPluginAsync = async (fastify) => {
+async function getPlaceListItems(url: string): Promise<any> {
+  return JSON.parse(
+    (await (await fetch(url)).text())
+      .split("React.createElement(__desktopComponents.App,")[1]
+      .split('),document.getElementById("content")')[0]
+  ).model.PlaceListWidget.Items.slice(0,5);
+}
+
+const knownTypes = ['Cinema', 'ConcertHall', 'Theatre', 'Museum', 'Gallery', 'ShowRoom', "Restaurant"]
+
+const ListRoutes: FastifyPluginAsync = async (fastify) => {
   const {} = fastify;
 
   fastify.get<UpdateQuery>("/update", async (req, reply) => {
@@ -24,6 +34,35 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
       }
     );
 
+    let list: APIPlace[] = [].concat.apply(
+      [],
+      await Promise.all([
+        getPlaceListItems(
+          "https://www.afisha.ru/chelyabinsk/cinema/cinema_list/"
+        ), // Кинотеатры
+        getPlaceListItems("https://www.afisha.ru/chelyabinsk/concerthall/"), // Концертные залы
+        getPlaceListItems(
+          "https://www.afisha.ru/chelyabinsk/theatre/theatre_list/"
+        ), // Театры
+        getPlaceListItems("https://www.afisha.ru/chelyabinsk/museum/"), // Музеи
+      ])
+    ).filter(({Address, GeoPoint}: any)=>Address&&GeoPoint).map((data: any)=>{
+      const {Logo1x1, Image16x9, Phones, Address, GeoPoint, Name, Type} = data;
+
+      return {
+        logo: Logo1x1?.Url ?? Image16x9?.Url ?? "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
+        phones: Phones ? Phones.map(({Number}: any)=>Number) : [],
+        address: Address,
+        geoPoint: GeoPoint ? [GeoPoint.Latitude, GeoPoint.Longitude] : [0,0],
+        type: knownTypes.includes(Type) ? Type.toLowerCase() : "other",
+        name: Name,
+        price: Math.floor(Math.random() * 1000)
+      }
+      
+    });
+
+
+
     if (edaResponse.ok) {
       let {
         data: { places_lists },
@@ -38,9 +77,9 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
             )
             .map((e: any) => e.payload.places)
         )
-        .slice(0, 20);
+        .slice(0, 5);
 
-      let list: Place[] = await Promise.all(
+      let edaList: APIPlace[] = await Promise.all(
         places.map(async (place: any) => {
           let infoResponse: any = await fetch(
             `https://eda.yandex.ru/eats/v1/eats-catalog/v1/brand/${place.brand.slug}?regionId=37`,
@@ -53,11 +92,8 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
             }
           );
 
-          let location: PlaceLocation = {
-              geo: { latitude: 0, longitude: 0 },
-              short: "Неизвестно",
-            },
-            rate = "Новый";
+          let geoPoint: [number, number] = [0,0],
+            address="";
 
           if (infoResponse.ok) {
             infoResponse = await infoResponse.json();
@@ -68,16 +104,12 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
                   location: { longitude, latitude },
                   short,
                 },
-                rating,
               } = infoAddress;
-              if (rating) rate = `${rating}`;
-              location = {
-                geo: {
-                  latitude,
-                  longitude,
-                },
-                short,
-              };
+              geoPoint = [
+                latitude,
+                longitude,
+              ];
+              address=short
             }
           }
 
@@ -112,31 +144,33 @@ const EdaRoutes: FastifyPluginAsync = async (fastify) => {
             }
           }
 
-          let out: Place = {
-            id: place?.slug,
-            brand: place?.brand?.slug,
-            name: place?.name,
-            photo_url: "https://eda.yandex.ru" + place?.media?.photos?.[0]?.uri,
-            location,
-            rating: rate,
+          let out: APIPlace = {
+            logo: place?.media?.photos?.[0]?.uri ? "https://eda.yandex.ru" + place?.media?.photos?.[0]?.uri : "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
+            phones: [],
+            address,
+            geoPoint,
+            type: "restaurant",
+            name: place?.name??"Какой то ресторан",
             price,
           };
 
           return out;
         })
-      );
+      )
 
-      await fs.writeFileSync("./cache/eda.json", JSON.stringify(list, null, 2));
+      list=list.concat(edaList.filter(({geoPoint, address})=>address!=""&&geoPoint[0]!=0&&geoPoint[1]!=0));
 
-      return list;
+      await fs.writeFileSync("./cache/list.json", JSON.stringify(list, null, 2));
+
+      return {ok:true}
     } else {
       throw fastify.httpErrors.badRequest(`Eda: ${edaResponse.status}`);
     }
   });
 
   fastify.get("/", async (req, reply) => {
-    return JSON.parse(fs.readFileSync("./cache/eda.json", "utf-8"));
+    return JSON.parse(fs.readFileSync("./cache/list.json", "utf-8"));
   });
 };
 
-export default EdaRoutes;
+export default ListRoutes;

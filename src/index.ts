@@ -1,9 +1,5 @@
-import fetch from "node-fetch";
-import fs from "fs";
-import { Place } from "./types";
 import Fastify from "fastify";
 import App from "./app";
-import { exec, spawn } from "child_process";
 
 async function start() {
   const fastify = Fastify({
