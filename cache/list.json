@@ -1,312 +1,357 @@
 [
   {
+    "id": "afisha-2739",
     "logo": "https://s1.afisha.ru/mediastorage/15/35/179cfdb9df7f423bb6a247ba3515.jpg",
     "phones": [
       "+7 (351) 263 42 24",
       "+7 (351) 263 55 85"
     ],
-    "address": "Челябинск, Пушкина, 64",
+    "address": "Пушкина, 64",
     "geoPoint": [
       55.15802900000001,
       61.40893699999992
     ],
     "type": "cinema",
     "name": "Кинотеатр им. Пушкина",
-    "price": 496
+    "price": 489,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-33736",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 (351) 210 11 11"
     ],
-    "address": "Челябинск, Копейское ш., 64, ТРЦ «Алмаз»",
+    "address": "Копейское ш., 64, ТРЦ «Алмаз»",
     "geoPoint": [
       55.14534364806286,
       61.45255834992258
     ],
     "type": "cinema",
     "name": "Мягкий кинотеатр Алмаз",
-    "price": 714
+    "price": 528,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-4197",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 (351) 211 65 65"
     ],
-    "address": "Челябинск, Молдавская, 16, ТРЦ «Фокус»",
+    "address": "Молдавская, 16, ТРЦ «Фокус»",
     "geoPoint": [
       55.19074999999999,
       61.303499999999985
     ],
     "type": "cinema",
     "name": "Мягкий кинотеатр Фокус",
-    "price": 657
+    "price": 146,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-4160",
     "logo": "https://s5.afisha.ru/ms/23byORARhFA1vTOFb9MPpNxoDJdcjlEM6uGNJsDOxVU.jpg",
     "phones": [],
-    "address": "Челябинск, Труда, 203, ТРК «Родник»",
+    "address": "Труда, 203, ТРК «Родник»",
     "geoPoint": [
       55.1713134,
       61.35570359999997
     ],
     "type": "cinema",
     "name": "Киномакс–Родник",
-    "price": 158
+    "price": 321,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-2978",
     "logo": "https://s4.afisha.ru/ms/QfiyMOSetXhsQfzBKkobAwnfM1wP8kHYlNXeIOIjcbw.jpg",
     "phones": [],
-    "address": "Челябинск, Воровского, 6",
+    "address": "Воровского, 6",
     "geoPoint": [
       55.15755169999849,
       61.39483539999401
     ],
     "type": "cinema",
     "name": "Киномакс–Урал",
-    "price": 618
+    "price": 558,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-4981",
     "logo": "https://s1.afisha.ru/ms/V_GXDv2Kvo3pMs7OQ0WSB5SrPwEbBS0jxh23U0LWkw8.jpg",
     "phones": [
       "+7 (351) 724 31 04"
     ],
-    "address": "Челябинск, Кирова, 78",
+    "address": "Кирова, 78",
     "geoPoint": [
       55.17146572425088,
       61.399387241115846
     ],
     "type": "concerthall",
     "name": "Зал камерной и органной музыки",
-    "price": 739
+    "price": 746,
+    "time": "пн-вс 11.00–19.00 (касса)"
   },
   {
+    "id": "afisha-26775",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [],
-    "address": "Челябинск, Труда, 181, ТРК «Таганай»",
+    "address": "Труда, 181, ТРК «Таганай»",
     "geoPoint": [
       55.16778674822771,
       61.377457782474494
     ],
     "type": "concerthall",
     "name": "Taganay Music Hall",
-    "price": 993
+    "price": 670,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-26699",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 (351) 225 36 37"
     ],
-    "address": "Челябинск, Солнечная, 5",
+    "address": "Солнечная, 5",
     "geoPoint": [
       55.20032013760377,
       61.320196996414325
     ],
     "type": "concerthall",
     "name": "Челябинская детская филармония",
-    "price": 196
+    "price": 569,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-5515",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 (351) 253 35 55"
     ],
-    "address": "Челябинск, Новороссийская, 83",
+    "address": "Новороссийская, 83",
     "geoPoint": [
       55.11379211333809,
       61.452737635399444
     ],
     "type": "concerthall",
     "name": "ДК ЧТПЗ",
-    "price": 327
+    "price": 432,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-5395",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 (351) 725 29 75"
     ],
-    "address": "Челябинск, Ярослава Гашека, 1",
+    "address": "Ярослава Гашека, 1",
     "geoPoint": [
       55.25822200926709,
       61.40577317144209
     ],
     "type": "concerthall",
     "name": "ДК «Мечел»",
-    "price": 201
+    "price": 285,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-15878564",
     "logo": "https://s1.afisha.ru/mediastorage/11/71/201112abd1dd41f6993d2b9d7111.jpg",
     "phones": [
       "+7 (351) 791 66 04",
       "+7 (351) 791 46 46"
     ],
-    "address": "Челябинск, Кирова, 8",
+    "address": "Кирова, 8",
     "geoPoint": [
       55.18056785861816,
       61.39882206912068
     ],
     "type": "theatre",
     "name": "Театр кукол им. Вольховского",
-    "price": 917
+    "price": 297,
+    "time": "пн-вс 9.00–12.00, 12.30–19.00"
   },
   {
+    "id": "afisha-15878206",
     "logo": "https://s1.afisha.ru/mediastorage/05/9b/a8f1a5435b774121b3a4ec239b05.jpg",
     "phones": [
       "+7 (351) 263 42 24",
       "+7 (351) 263 55 85"
     ],
-    "address": "Челябинск, Пушкина, 64",
+    "address": "Пушкина, 64",
     "geoPoint": [
       55.15805336021498,
       61.40901366131311
     ],
     "type": "theatre",
     "name": "Манекен",
-    "price": 854
+    "price": 876,
+    "time": "Ежедневно"
   },
   {
+    "id": "afisha-15877841",
     "logo": "https://s3.afisha.ru/mediastorage/a9/45/6593f0a9926245de95ea6af245a9.jpg",
     "phones": [
       "+7 (351) 264 76 84",
       "+7 (351) 216 43 43"
     ],
-    "address": "Челябинск, пл. Революции, 6",
+    "address": "пл. Революции, 6",
     "geoPoint": [
       55.155924040344274,
       61.40293121338868
     ],
     "type": "theatre",
     "name": "Театр драмы им. Наума Орлова",
-    "price": 927
+    "price": 440,
+    "time": "пн-вс 9.30–14.00, 15.00–19.00"
   },
   {
+    "id": "afisha-15878207",
     "logo": "https://s3.afisha.ru/ms/1G7vh_hMgroQB2kwwc4TFm7aeEiM7LDw83Dun1bOrLQ.jpg",
     "phones": [
       "+7 (351) 263 22 03",
       "+7 (351) 263 88 92"
     ],
-    "address": "Челябинск, Кирова, 116",
+    "address": "Кирова, 116",
     "geoPoint": [
       55.15905015038936,
       61.40061378478549
     ],
     "type": "theatre",
     "name": "Челябинский молодежный театр",
-    "price": 774
+    "price": 12,
+    "time": "пн-вс 9.00–14.00, 14.30–20.30"
   },
   {
+    "id": "afisha-15878566",
     "logo": "https://s4.afisha.ru/mediastorage/26/56/2656c4dd531646b0a7bd499f6401.jpg",
     "phones": [
       "+7 (351) 263 87 63",
       "+7 (351) 263 99 82"
     ],
-    "address": "Челябинск, пл. Ярославского, 1",
+    "address": "пл. Ярославского, 1",
     "geoPoint": [
       55.166469083573304,
       61.40212655064249
     ],
     "type": "theatre",
     "name": "Театр оперы и балета им. Глинки",
-    "price": 999
+    "price": 723,
+    "time": "пн-вс 10.00–14.00, 14.30–20.00"
   },
   {
+    "id": "afisha-6675",
     "logo": "https://s1.afisha.ru/mediastorage/ca/3c/341c5338995b4808b677e7f93cca.jpg",
     "phones": [
       "+7 (351) 263 08 32"
     ],
-    "address": "Челябинск, Труда, 100",
+    "address": "Труда, 100",
     "geoPoint": [
       55.16837195964294,
       61.39806099265729
     ],
     "type": "museum",
     "name": "Исторический музей Южного Урала",
-    "price": 464
+    "price": 420,
+    "time": "пн-пт 10.00–19.00, сб-вс 11.00–19.00, касса закрывается на час раньше"
   },
   {
+    "id": "afisha-6597",
     "logo": "https://s.afisha.ru/ms/xTwj5mxjIxZASt-dpn9_L1xw_9mNALEhHpQGmU4CTjQ.jpg",
     "phones": [
       "+7 (351) 266 38 17",
       "+7 (351) 265 81 41"
     ],
-    "address": "Челябинск, пл. Революции, 1",
+    "address": "пл. Революции, 1",
     "geoPoint": [
       55.15965707067963,
       61.404252593911224
     ],
     "type": "museum",
     "name": "Музей изобразительных искусств",
-    "price": 479
+    "price": 933,
+    "time": "вт-ср, пт-вс 11.00–19.00, чт 12.00–20.00, касса закрывается на 40 минут раньше"
   },
   {
+    "id": "afisha-23395",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 912 896 30 42"
     ],
-    "address": "Челябинск, Сони Кривой, 26",
+    "address": "Сони Кривой, 26",
     "geoPoint": [
       55.15826100000365,
       61.39549300002204
     ],
     "type": "gallery",
     "name": "Abstraction Галиевой Ирины",
-    "price": 32
+    "price": 637,
+    "time": "ср-вс 13.00–19.00"
   },
   {
+    "id": "afisha-23095",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 919 357 75 98",
       "+7 904 971 75 82"
     ],
-    "address": "Челябинск, Советская, 38, арт-отель «Арбат»",
+    "address": "Советская, 38, арт-отель «Арбат»",
     "geoPoint": [
       55.16120943567381,
       61.406205906697096
     ],
     "type": "gallery",
     "name": "Alvitr Gallery",
-    "price": 263
+    "price": 372,
+    "time": "пн-вс 10.00–20.00"
   },
   {
+    "id": "afisha-20570",
     "logo": "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
     "phones": [
       "+7 961 789 87 06",
       "+7 963 465 01 77"
     ],
-    "address": "Челябинск, Братьев Кашириных, 129",
+    "address": "Братьев Кашириных, 129",
     "geoPoint": [
       55.17718387343086,
       61.319458637648495
     ],
     "type": "museum",
     "name": "Музей археологии и этнографии",
-    "price": 788
+    "price": 963,
+    "time": "пн-пт 8.00–17.00"
   },
   {
+    "id": "eda-bk_soni24-burger_king_ynrku",
     "logo": "https://eda.yandex.ru/images/3436037/0b8f38d72256c03fad684f94439bfba5-{w}x{h}.jpg",
     "phones": [],
-    "address": "улица Сони Кривой, 24",
+    "address": "проспект Победы, 166А",
     "geoPoint": [
-      55.15838,
-      61.39658
+      55.18469,
+      61.401467
     ],
     "type": "restaurant",
     "name": "Бургер Кинг",
-    "price": 342
+    "price": 345,
+    "time": "Ежедневно 09:00-23:40"
   },
   {
+    "id": "eda-kfc_uevjc-kfc_ru",
     "logo": "https://eda.yandex.ru/images/3559865/ee31782ce8a630a015b6b94fd07b3351-{w}x{h}.jpg",
     "phones": [],
-    "address": "Воровского, 6",
+    "address": "улица Свободы, 185А",
     "geoPoint": [
-      55.157428,
-      61.395098
+      55.142725,
+      61.41522
     ],
     "type": "restaurant",
     "name": "KFC",
-    "price": 190
+    "price": 190,
+    "time": "Ежедневно 09:00-22:30"
   },
   {
+    "id": "eda-vkusno__i_tochka_fzqpy-vkusnoitochka",
     "logo": "https://eda.yandex.ru/images/3580810/a91a396cfada8d661404141cb1795615-{w}x{h}.jpg",
     "phones": [],
     "address": "улица Кирова, 161Б",
@@ -316,30 +361,35 @@
     ],
     "type": "restaurant",
     "name": "Вкусно – и точка",
-    "price": 173
+    "price": 175,
+    "time": "Ежедневно 08:00-23:45"
   },
   {
+    "id": "eda-Subway_kirova-subway",
+    "logo": "https://eda.yandex.ru/images/3595156/526cc4f57b5be155ab723131c7c199e7-{w}x{h}.jpg",
+    "phones": [],
+    "address": "проспект Ленина, 71",
+    "geoPoint": [
+      55.159455,
+      61.383958
+    ],
+    "type": "restaurant",
+    "name": "Subway",
+    "price": 256,
+    "time": "Ежедневно 00:00-01:00"
+  },
+  {
+    "id": "eda-na_truda_truda_148-na_truda",
     "logo": "https://eda.yandex.ru/images/3502728/22ef60f6bb420e6929a1bbec78a05f7c-{w}x{h}.jpg",
     "phones": [],
-    "address": "улица Труда, 148",
+    "address": "улица Худякова, 12",
     "geoPoint": [
-      55.168197,
-      61.386016
+      55.148143,
+      61.371652
     ],
     "type": "restaurant",
     "name": "На Труда",
-    "price": 346
-  },
-  {
-    "logo": "https://eda.yandex.ru/images/1387779/e5ae38726387f02a4c0c709f9cd94fc0-{w}x{h}.jpg",
-    "phones": [],
-    "address": "Кузнечная улица, 9",
-    "geoPoint": [
-      55.134826,
-      61.399589
-    ],
-    "type": "restaurant",
-    "name": "Центр Суши",
-    "price": 612
+    "price": 346,
+    "time": "Ежедневно 11:00-22:30"
   }
 ]

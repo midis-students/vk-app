@@ -9,6 +9,7 @@ export type UpdateQuery = {
 };
 
 export type APIPlace = {
+  id: string;
   logo: string;
   phones: Array<string>;
   address: string;
@@ -16,5 +17,6 @@ export type APIPlace = {
   type: 'cinema' | 'concerthall' | 'theatre' | 'museum' | 'gallery' | 'showRoom' | 'restaurant' | 'other';
   name: string;
   price: number;
+  time: string;
 };
 
