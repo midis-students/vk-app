@@ -9,10 +9,18 @@ async function getPlaceListItems(url: string): Promise<any> {
     (await (await fetch(url)).text())
       .split("React.createElement(__desktopComponents.App,")[1]
       .split('),document.getElementById("content")')[0]
-  ).model.PlaceListWidget.Items.slice(0,5);
+  ).model.PlaceListWidget.Items.slice(0, 5);
 }
 
-const knownTypes = ['Cinema', 'ConcertHall', 'Theatre', 'Museum', 'Gallery', 'ShowRoom', "Restaurant"]
+const knownTypes = [
+  "Cinema",
+  "ConcertHall",
+  "Theatre",
+  "Museum",
+  "Gallery",
+  "ShowRoom",
+  "Restaurant",
+];
 
 const ListRoutes: FastifyPluginAsync = async (fastify) => {
   const {} = fastify;
@@ -34,36 +42,48 @@ const ListRoutes: FastifyPluginAsync = async (fastify) => {
       }
     );
 
-    let list: APIPlace[] = [].concat.apply(
-      [],
-      await Promise.all([
-        getPlaceListItems(
-          "https://www.afisha.ru/chelyabinsk/cinema/cinema_list/"
-        ), // Кинотеатры
-        getPlaceListItems("https://www.afisha.ru/chelyabinsk/concerthall/"), // Концертные залы
-        getPlaceListItems(
-          "https://www.afisha.ru/chelyabinsk/theatre/theatre_list/"
-        ), // Театры
-        getPlaceListItems("https://www.afisha.ru/chelyabinsk/museum/"), // Музеи
-      ])
-    ).filter(({Address, GeoPoint}: any)=>Address&&GeoPoint).map((data: any)=>{
-      const {ID, Logo1x1, Image16x9, Phones, Address, GeoPoint, Name, Type, WorkingHours} = data;
-      console.log(WorkingHours)
-      return {
-        id: `afisha-${ID}`,
-        logo: Logo1x1?.Url ?? Image16x9?.Url ?? "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
-        phones: Phones ? Phones.map(({Number}: any)=>Number) : [],
-        address: Address.replace("Челябинск, ", ""),
-        geoPoint: GeoPoint ? [GeoPoint.Latitude, GeoPoint.Longitude] : [0,0],
-        type: knownTypes.includes(Type) ? Type.toLowerCase() : "other",
-        name: Name,
-        price: Math.floor(Math.random() * 1000),
-        time: WorkingHours ?? "Ежедневно"
-      }
-      
-    });
-
-
+    let list: APIPlace[] = [].concat
+      .apply(
+        [],
+        await Promise.all([
+          getPlaceListItems(
+            "https://www.afisha.ru/chelyabinsk/cinema/cinema_list/"
+          ), // Кинотеатры
+          getPlaceListItems("https://www.afisha.ru/chelyabinsk/concerthall/"), // Концертные залы
+          getPlaceListItems(
+            "https://www.afisha.ru/chelyabinsk/theatre/theatre_list/"
+          ), // Театры
+          getPlaceListItems("https://www.afisha.ru/chelyabinsk/museum/"), // Музеи
+        ])
+      )
+      .filter(({ Address, GeoPoint }: any) => Address && GeoPoint)
+      .map((data: any) => {
+        const {
+          ID,
+          Logo1x1,
+          Image16x9,
+          Phones,
+          Address,
+          GeoPoint,
+          Name,
+          Type,
+          WorkingHours,
+        } = data;
+        return {
+          id: `afisha-${ID}`,
+          logo:
+            Logo1x1?.Url ??
+            Image16x9?.Url ??
+            "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
+          phones: Phones ? Phones.map(({ Number }: any) => Number) : [],
+          address: Address.replace("Челябинск, ", ""),
+          geoPoint: GeoPoint ? [GeoPoint.Latitude, GeoPoint.Longitude] : [0, 0],
+          type: knownTypes.includes(Type) ? Type.toLowerCase() : "other",
+          name: Name,
+          price: Math.floor(Math.random() * 1000),
+          time: WorkingHours ?? "Ежедневно",
+        };
+      });
 
     if (edaResponse.ok) {
       let {
@@ -94,9 +114,9 @@ const ListRoutes: FastifyPluginAsync = async (fastify) => {
             }
           );
 
-          let geoPoint: [number, number] = [0,0],
-            address="",
-            time="Круглосуточно";
+          let geoPoint: [number, number] = [0, 0],
+            address = "",
+            time = "Круглосуточно";
 
           if (infoResponse.ok) {
             infoResponse = await infoResponse.json();
@@ -108,13 +128,13 @@ const ListRoutes: FastifyPluginAsync = async (fastify) => {
                   short,
                 },
               } = info;
-              geoPoint = [
-                latitude,
-                longitude,
-              ];
-              address=short;
-              const [start, end] = info?.footerDescription?.split("br")?.at(-1)?.match(/[0-9]{1,2}:[0-9]{1,2}/gm) ?? [null, null];
-              if(start&&end) time=`Ежедневно ${start}-${end}`;
+              geoPoint = [latitude, longitude];
+              address = short;
+              const [start, end] = info?.footerDescription
+                ?.split("br")
+                ?.at(-1)
+                ?.match(/[0-9]{1,2}:[0-9]{1,2}/gm) ?? [null, null];
+              if (start && end) time = `Ежедневно ${start}-${end}`;
             }
           }
 
@@ -149,28 +169,40 @@ const ListRoutes: FastifyPluginAsync = async (fastify) => {
             }
           }
 
-
           let out: APIPlace = {
-            id: place?.slug && place?.brand?.slug ? `eda-${place?.slug}-${place?.brand?.slug}` : '',
-            logo: place?.media?.photos?.[0]?.uri ? "https://eda.yandex.ru" + place?.media?.photos?.[0]?.uri : "https://s5.afisha.ru/mediastorage/27/bc/b31ac7676e324eeebd888e77bc27.jpg",
+            id:
+              place?.slug && place?.brand?.slug
+                ? `eda-${place?.slug}-${place?.brand?.slug}`
+                : "",
+            logo: place?.media?.photos?.[0]?.uri
+              ? "https://eda.yandex.ru" + place?.media?.photos?.[0]?.uri
+              : "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png",
             phones: [],
             address,
             geoPoint,
             type: "restaurant",
-            name: place?.name??"Какой то ресторан",
+            name: place?.name ?? "Какой то ресторан",
             price,
-            time
+            time,
           };
 
           return out;
         })
-      )
+      );
 
-      list=list.concat(edaList.filter(({id, geoPoint, address})=>address!=""&&geoPoint[0]!=0&&geoPoint[1]!=0&&id!=""));
+      list = list.concat(
+        edaList.filter(
+          ({ id, geoPoint, address }) =>
+            address != "" && geoPoint[0] != 0 && geoPoint[1] != 0 && id != ""
+        )
+      );
 
-      await fs.writeFileSync("./cache/list.json", JSON.stringify(list, null, 2));
+      await fs.writeFileSync(
+        "./cache/list.json",
+        JSON.stringify(list, null, 2)
+      );
 
-      return {ok:true}
+      return { ok: true };
     } else {
       throw fastify.httpErrors.badRequest(`Eda: ${edaResponse.status}`);
     }
@@ -179,17 +211,17 @@ const ListRoutes: FastifyPluginAsync = async (fastify) => {
   type GetDto = {
     Querystring: {
       id?: string;
-    }
-  }
+    };
+  };
 
   fastify.get<GetDto>("/", async (req, reply) => {
     const db = JSON.parse(fs.readFileSync("./cache/list.json", "utf-8"));
-    if(req.query.id) {
+    if (req.query.id) {
       const ids = req.query.id.split(",");
-      const find = db.filter(({id}:{id: string})=>ids.includes(id))
-      if(!find.length) return fastify.httpErrors.notFound()
+      const find = db.filter(({ id }: { id: string }) => ids.includes(id));
+      if (!find.length) return fastify.httpErrors.notFound();
       return find;
-    }else{
+    } else {
       return db;
     }
   });
